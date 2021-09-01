@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    background-color: #78bbcb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    grid-template-rows: repeat(6, 100px) ;
+    /* border: 10px solid black; */
+    justify-content: center;
+}
+img{
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.dios{
+/* border: 10px solid brown; */
+grid-row-start: 2;
+/* grid-column-start: 3;
+grid-column-end: 5; */
+grid-column: 3 / 5;
+}
+.boca{
+/* border: 10px solid red; */
+grid-row-start: 4;
+grid-column-start: 5;
+}
+.campana{
+/* border: 10px solid green; */
+grid-row-start: 4;
+grid-column: 1 / 2;
+}
+.gusano{
+/* border: 10px solid purple; */
+grid-row-start: 2;
+grid-column: 6 / 7;
+}
+.reloj{
+/* border: 10px solid pink; */
+grid-row-start: 4;
+grid-column: 2 / 3;
+}
+.tostadora{
+/* border: 10px solid black; */
+grid-row-start: 2;
+grid-column: 1 / 2;
+}
